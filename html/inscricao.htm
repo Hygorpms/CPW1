@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos</title>
+    <link rel="stylesheet" href="\css\index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <header>
+        <img class="imgLogo"
+            src="/imagens/topo.png" alt="Topo"
+        />
+        <address class="ender">        
+            Estrada do Puxa Ferro,12 <br>
+            Tel: (21) 91234-568 <br>
+            <a href=mailto:contato@halterhabit.com.br> contato@halterhabit.com.br</a>
+        </address>
+    </header>
+<div>   
+    <nav>
+        <ul>
+            <li>
+                <a href="exercicio2.html">Apresentação</a>
+            </li>
+            <li>
+                <a href="planos.html">Planos</a>
+            </li>
+            <li>
+                <a href="equipamentos.html">Equipamentos</a>
+            </li>
+            <li>
+                <a href="inscricao.htm">Inscrição</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="apres"> 
+            <h1>Inscrição</h1>
+        <form class="formul" action="cadastro.php" method="post" autocomplete="on">
+            <fieldset class="fsPessoal">
+                <legend>Dados Pessoais</legend>
+                <div class="ColDirPes">
+                    <div class="linhaNome" >
+                        <label class="texto" for="nome">Nome:</label>
+                        <input class="inpNome" type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="linhaDados">
+                        <label class="texto" for="telefone">Telefone:</label>
+                        <input class="inpTelef" type="tel" id="telefone" name="telefone" pattern="[0-9]{2}\ [0-9]{4}-[0-9]{4}" required>
+                    </div>
+                    <div class="linhaDados">
+                        <label class="texto" for="celular">Celular:</label>
+                        <input class="inpCel" type="tel" id="celular" name="celular" pattern="[0-9]{2}\ [0-9]{4}-[0-9]{4}" required>
+                    </div>
+                    <div class="linhaDados">
+                        <label class="texto" for="idade">Idade:</label>
+                        <input class="numDD" type="number" id="idade" name="idade" min="18" max="99" value="18" required>
+                    </div>
+                </div>
+
+                <fieldset class="fsGenero">
+                    <legend> Genero </legend>
+                    <div class="genalign" >
+                        <input class="radio-custon" type="radio" id="masculino" name="genero" required>
+                        <label class="texto" for="masculino">Masculino</label>
+                    </div class="genalign">
+                        <div class="genalign">
+                            <input class="radio-custon" type="radio" id="feminino" name="genero" checked required>
+                            <label class="texto" for="feminino">Feminino</label>
+                        </div>
+                    <div class="genalign">
+                        <input class="radio-custon" type="radio" id="outro" name="genero" required>
+                        <label class="texto" for="outro">Outro</label>
+                    </div>
+                        
+                    
+                </fieldset>
+            </fieldset>
+
+            <fieldset class="fsMat">
+                <legend>Matrícula</legend>
+                <div class="colMat">
+                    <div>
+                        <label class="texto" for="matriculado">Matriculado?</label>
+                        <input type="checkbox" id="matriculado" name="matriculado" required>
+                    </div>
+        
+                    <div class="numMat">
+                        <label class="texto" for="numero">Número</label>
+                        <input class="numMatBox" type="text" id="numero" name="numero" required>
+                    </div>
+                </div>
+                
+                <div class="ativplan">
+                    <div>
+                        <label class="texto" for="atividades">Atividade:</label>
+                            <select class="ativ" id="atividades" name="atividades"> 
+                                <option value="">-----</option>
+                                <option value="academia">Academia</option>
+                                <option value="natacao">Natação</option>
+                                <option value="combo">Combo</option>
+                            </select>
+                    </div>
+        
+                    <div class="iplan">
+                        <label class="texto" for="planos">Plano:</label>
+                        <select class="plan" id="planos" name="planos">
+                            <option value="">-----</option>
+                            <option value="Anual">Anual</option>
+                            <option value="Semestral">Semestral</option>
+                            <option value="Mensal">Mensal</option>
+                        </select>
+                            
+                    </div>
+                </div>
+
+                <fieldset class="cartao">
+                    <legend>Cartão</legend>
+                    <div>
+                        Bandeira:   <input class="radio-custon" type="radio" id="visa" name="bandeira" checked required>
+                                    <label class="texto" for="visa">Visa</label>
+                                    <input class="radio-custon" type="radio" id="master" name="bandeira"  required>
+                                    <label class="texto" for="master">Master</label>
+                                    <input class="radio-custon" type="radio" id="elo" name="bandeira" required>
+                                    <label class="texto" for="elo">Elo</label>
+                        
+                    </div>
+                    <div class="val">
+                        <label class="texto" for="validade">Validade:</label>
+                        <input class="valBox" type="number" id="validade" name="validade" min="01" max="12" value="10" required> / <input class="valBoxAnul" type="number" id="validade" name="validade" min="2024" max="2040" value="2024" required>
+                    </div>
+                    <div class="carNumB">
+                        <label class="texto" for="cartnumero">Número:</label>
+                        <input class="carNum" type="numero" id="cartnumero" name="cartnumero" minlength="8" maxlength="8">
+                    </div>
+        
+                </fieldset>
+                <div>
+                <label class="texto" for="matricula+plano"></label>
+                <input class="valorB" type="button" value="Matricula+Plano" id="matricula+plano" name="matricula+plano">
+            <div class="valor">
+                <label class="texto"  for="valor">Valor: R$</label>
+                <input class="valorBox" type="number" id="valor"> 
+            </div>
+                
+            </div>
+                
+            </fieldset>
+            <div class="rodape">
+                <label class="texto" for="enviar"></label>
+                <input class="subBox" type="submit" id="enviar" value="Enviar">
+                
+                <label for="limpar"></label>
+                <input class="limpBox" type="reset" id="limpar" value="Limpar">
+            </div>
+
+
+            
+        </form>
+            </form>
+    </section>
+</body>
+<footer>
+</footer>
+</html>

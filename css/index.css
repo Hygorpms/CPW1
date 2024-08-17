@@ -1,0 +1,354 @@
+
+
+header {  display: inline-block; width: 100%; margin-bottom: 1px; }
+
+nav {   display : block; width: 25%; padding-right: 15%;}
+
+section { display: block; align-content: center;  }
+
+body {
+    background-color: #DDCC55;
+    color: #000000;
+    font-size: 16px;
+    font-family: "stoke", "Lucida Bright", "liberation"
+}
+div { display: flex; }
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+a:visited {
+    color: #222222;
+}
+
+ol {
+    line-height: 200%;
+}
+
+ul {
+    line-height: 200%;
+    color: #000000;
+    line-height: 230%;
+    list-style-type: square;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    color: #202020;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+
+td {
+    background-color: #EEEEBB;
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: left;
+}
+
+.ender {
+    float: right;
+    text-align: right;
+    font-family: "Karla", "Verdana", "Ubuntu";
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.imgLogo {
+    float: left;
+    border-bottom: 3px solid #222222;
+    margin-bottom: 6px;
+    padding: 10px;
+    padding-bottom: 15px
+}
+
+.apres {
+    text-align: center;
+    font-size: 16px;
+}
+
+.listaPlano {
+    padding: 10px 10px 10px 30px;
+    background-color: #EEEEBB;
+    font-size: 12px;
+    align-content: center;
+    width: 300px;
+    text-align: left;
+    border: 3px solid #202020;
+    color: #202020;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preco {
+    color: #CC0000;
+}
+
+.tabEquip {
+    border: 1px solid #000000;
+    border-collapse: separate;
+    width: 510px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tabTitulo {
+    color:#FFFFFF  ;
+    border: 1px solid #FFFFFF;
+    background-color: #402020; 
+    padding: 10px; 
+}
+
+.tabSubTit {
+    background-color: #802020;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+.imgCel {
+    width: 100px;
+    background-color: #FFFFFF;
+    
+}
+
+.formul {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: 3px solid #202020;
+    font-size: 12px;
+    text-align: left;
+}
+
+.fsPessoal {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+
+.fsGenero {
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: left;
+    height: 90px;
+    
+}
+
+.genalign {
+    padding-bottom: 8px;
+}
+
+.fsMat {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    padding-top: 8px;
+}
+
+.numMat {
+    margin-left: 90px;
+}
+
+.numMatBox {
+    width: 93px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.ativplan {
+    padding-top: 8px;
+}
+
+.ativ {
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-color: gray;
+    margin-left: 5px;
+    height: 30px;
+}
+
+.iplan {
+   padding-left: 30px;
+}
+.plan {
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 30px;
+}
+
+.fsCartao {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.val {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.valBox {
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.valBoxAnul {
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.carNum {
+    width: 130px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+    
+}
+
+.linhaNome {
+    height: 30px;
+    width: 340px;
+    padding-top: 8px;
+}
+
+.inpNome {
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 40px;
+    height: 25px
+}
+
+.linhaDados {
+    
+    padding-top: 8px;
+    margin-top: 10px;
+}
+
+.inpCel {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 35px;
+    width: 100px;
+    height: 25px;
+}
+
+.inpTelef {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 100px;
+    height: 25px;
+}
+
+.matricula {
+    padding-top: 8px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+
+.cartao {
+    margin-bottom: 10px;
+}
+
+.ColDirPes {
+    width: 70px;
+    float: left;
+    display: block;
+}
+
+.numDD {
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 44px;
+    height: 25px;
+}
+
+.radio-custon {
+    width: 16px;
+    height: 16px;
+}
+
+.valorB {
+    width: 140px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.valor {
+    padding-left: 65px;
+}
+
+.valorBox {
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.rodape {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.subBox {
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.limpBox {
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.texto {
+    
+    font-size: 12px;
+    margin-top: 5px;
+}
